@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    font-size: 75.68%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+}
+
+.app {
+    background-color: #eee;
+    padding: 15px;
+    width: 100%;
+    max-width: 500px;
+    margin: 12px auto;
+    border-radius: 10px;
+    box-shadow: 3px 5px 8px 12px rgba(0, 0, 0, 0.7);
+}
+
+.app h1 {
+    text-align: center;
+    padding: 12px 0;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 12px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 7fr 2fr;
+    gap: 10px;
+}
+
+.wrapper input {
+    padding: 12px;
+    border: 2px solid #dedede;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.wrapper input:focus {
+    outline: none;
+}
+
+.wrapper button {
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#herotextname {
+    margin-top: 12px auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.herotext {
+    padding-top: 12px;
+    font-size: 1.3rem;
+}
+
+#herocontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroimg {
+    width: 30%;
+    height: auto;
+    margin: 10px auto;
+}
+
+#herodetails {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 23px;
+}
+
+#randombtn {
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+    padding: 12px 15px;
+    background-color: black;
+    color: #fff;
+    white-space: nowrap;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+#randombtn:hover{
+    background-color: #5b9505;
+    border: 1px solid #5b9505;
+}
